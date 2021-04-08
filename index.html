@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<h3>
+    <div style="position: sticky; top:0; z-index: 99999; background-color: black">
+        <div class="menu1" id="myNavbar1">
+            <span>
+                <a href="#home">Home</a>
+            </span>
+            <span>
+                <a href="#grid">Grid view</a>
+            </span>
+            <span>
+                <a href="#slide">Slide view</a>
+            </span>
+        </div>
+    </div>
+</h3>
+<body>
+
+    <div class="container">
+
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize">avengers</h2>
+                <img id="img1" src="Avengers%20icon.jpg" class="img-responsive">
+            </div>
+        </section>
+        <hr style="width: 100%">
+        <section id="grid">
+            <h2>Grid Gallery</h2>
+            <div class="row">
+                <img class="img2" src="Doctor%20Strange.jpg">
+                <img class="img2" src="Gamora.jpg">
+                <img class="img2" src="iron%20man.jpg">
+                <br>
+                <br>
+            </div>
+            <div class="row">
+                <img class="img2" src="p8205710_p_v13_ao.jpg">
+                <img class="img2" src="Thanos.jpg">
+                <img class="img2" src="Thor.jpg">
+                <br>
+                <br>
+            </div>
+        </section>
+        <hr style="width: 100%">
+        <section id="slide">
+            <h2>Slide Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride=carousel>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="Gamora.jpg">
+                    <div class="carousel-caption">
+                        <h3>Gamora</h3>
+                    </div>
+                </div>
+                 <div class="item">
+                    <img class="img-responsive" src="p8205710_p_v13_ao.jpg">
+                    <div class="carousel-caption">
+                        <h3>Captian America</h3>
+                    </div>
+            </div>
+                <div class="item">
+                    <img class="img-responsive" src="Thor.jpg">
+                    <div class="carousel-caption">
+                        <h3>Thor</h3>
+                    </div>
+            </div>
+                <div class="item">
+                    <img class="img-responsive" src="Thanos.jpg">
+                    <div class="carousel-caption">
+                        <h3>Thanos</h3>
+                    </div>
+                        
+            </div>
+                <div class="item">
+                    <img class="img-responsive" src="Doctor%20Strange.jpg">
+                    <div class="carousel-caption">
+                        <h3>Doctor Strange</h3>
+                    </div>
+                        
+            </div>
+                <div class="item">
+                    <img class="img-responsive" src="Spider%20man.jpg">
+                    <div class="carousel-caption">
+                        <h3>Spider Man</h3>
+                    </div>
+                        
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        </section>
+
+        <!--
+Start your code from here
+-->
+        
+    </div>
+
+</body></html>
